@@ -1,6 +1,5 @@
 package HW_4;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.Generated;
@@ -24,8 +23,8 @@ import lombok.Setter;
         "status"
 })
 @Generated("jsonschema2pojo")
-
 public class PostImageResponse {
+
     @JsonProperty("data")
     private Data data;
     @JsonProperty("success")
@@ -34,4 +33,5 @@ public class PostImageResponse {
     private Integer status;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+
 }

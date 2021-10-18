@@ -107,9 +107,3 @@ public class Data {
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 }
- 7  src/main/java/DZ3/Endpoints.java
-@@ -0,0 +1,7 @@
-        package DZ3;
-
-
-}
